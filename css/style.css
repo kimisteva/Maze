@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+#maze {
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+#img1 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+
+#leftM {
+    height: 500px;
+    width: 300px;
+    background-color: rgba(130, 94, 92, 0.222);
+    position: relative;
+}
+
+#naslov {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+P{
+    font-size: 22px;
+
+}
